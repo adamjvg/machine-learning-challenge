@@ -19,10 +19,5 @@ This project uses the data they gathered to train two machine learning (ML) mode
 - Tune the model parameters using *GridSearchCV*.
 - Build the final model using the tuned parameters. 
 
-## Model Comparison
-The RFC model was the more accurate of the two by a small margin.
-
-![models_eval](Images/models_eval.png)
-
 ## Conclusions
 Logistic regression provided a slightly less accurate result than the Random Forest model. This came at the cost of time however, as the RF model took many times longer at the model tuning stage to achieve this result.
